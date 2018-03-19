@@ -33,7 +33,10 @@
   //post method
 
   //resolve isset($_POST['username']) issue => BLOCK prints blank
-  echo "<h2>The username user submitted is: {$_POST['username']}</h2>";
+  if(isset($_POST['username'])){
+    echo $_POST['username'];
+  }
+  //echo "<h2>The username user submitted is: {$_POST['username']}</h2>";
 
 
 
