@@ -1,6 +1,8 @@
 <?php
   class Honda extends Car{
     public $company = "Honda";
+    public $numberOfYears = 40;
+
 
     public function __construct($name, $doors, $color, $price, $inventory){
       $this->name = $name;
@@ -15,5 +17,7 @@
 
       echo "<h3> {$this->inventory->carTotal($this->company)}</h3>";
     }
+
+
   }
  ?>

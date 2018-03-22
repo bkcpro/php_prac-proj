@@ -1,6 +1,11 @@
 <?php
 
-  class Car{
+
+  require_once $_SERVER['DOCUMENT_ROOT'] . '/abstractCars.php';
+
+  //require_one dirname(__)
+
+  class Car extends Story{
     public $doors = 4;
     public $color = "Black";
 
@@ -12,7 +17,9 @@
       echo "<h1>{$this->company} {$this->name} has {$this->doors} doors and the color is {$this->color}</h1>";
     }
 
-
+    public function printCompanyYears(){
+      return $this->numberOfYears;
+    }
   }
 
 ?>
