@@ -17,6 +17,12 @@
       return $this;
     }
 
+    public function reverseString(){
+      $this->text = strrev($this->text);
+
+      return $this;
+    }
+
 
 
   }

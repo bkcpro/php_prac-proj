@@ -4,7 +4,7 @@
 
   $myname = new Text("my name is Bhargava Kunchanapalli");
 
-  $myname->toUpperCase()->print();
+  $myname->toUpperCase()->reverseString()->print();
 
 ?>
 
