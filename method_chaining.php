@@ -1,8 +1,8 @@
 <?php
 
-  require("manipulate/text_manipulate.php");
+  require("vendor/autoload.php");
 
-  $myname = new Text("my name is Bhargava Kunchanapalli");
+  $myname = new text("my name is Bhargava Kunchanapalli");
 
   $myname->toUpperCase()->reverseString()->print();
 

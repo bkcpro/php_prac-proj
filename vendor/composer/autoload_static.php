@@ -9,9 +9,13 @@ class ComposerStaticInitdba551438ebc458ea3fea91de45ee94f
     public static $classMap = array (
         'BMW' => __DIR__ . '/../..' . '/cars/BMW.php',
         'Car' => __DIR__ . '/../..' . '/cars/cars.php',
+        'ComposerAutoloaderInitdba551438ebc458ea3fea91de45ee94f' => __DIR__ . '/..' . '/composer/autoload_real.php',
+        'Composer\\Autoload\\ClassLoader' => __DIR__ . '/..' . '/composer/ClassLoader.php',
+        'Composer\\Autoload\\ComposerStaticInitdba551438ebc458ea3fea91de45ee94f' => __DIR__ . '/..' . '/composer/autoload_static.php',
         'Honda' => __DIR__ . '/../..' . '/cars/honda.php',
         'Inventory' => __DIR__ . '/../..' . '/cars/inventory.php',
         'Story' => __DIR__ . '/../..' . '/abstractCars.php',
+        'text' => __DIR__ . '/../..' . '/manipulate/text_manipulate.php',
         'useStatic' => __DIR__ . '/../..' . '/static_var_func.php',
     );
 

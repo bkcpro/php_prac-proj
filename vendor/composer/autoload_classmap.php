@@ -8,8 +8,12 @@ $baseDir = dirname($vendorDir);
 return array(
     'BMW' => $baseDir . '/cars/BMW.php',
     'Car' => $baseDir . '/cars/cars.php',
+    'ComposerAutoloaderInitdba551438ebc458ea3fea91de45ee94f' => $vendorDir . '/composer/autoload_real.php',
+    'Composer\\Autoload\\ClassLoader' => $vendorDir . '/composer/ClassLoader.php',
+    'Composer\\Autoload\\ComposerStaticInitdba551438ebc458ea3fea91de45ee94f' => $vendorDir . '/composer/autoload_static.php',
     'Honda' => $baseDir . '/cars/honda.php',
     'Inventory' => $baseDir . '/cars/inventory.php',
     'Story' => $baseDir . '/abstractCars.php',
+    'text' => $baseDir . '/manipulate/text_manipulate.php',
     'useStatic' => $baseDir . '/static_var_func.php',
 );
