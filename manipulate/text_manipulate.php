@@ -12,7 +12,7 @@
     }
 
     public function toUpperCase(){
-      $this->text = strtoupper($this-text);
+      $this->text = strtoupper($this->text);
 
       return $this;
     }
