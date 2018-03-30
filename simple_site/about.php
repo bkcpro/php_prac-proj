@@ -42,16 +42,16 @@
     <div class = "container">
       <header>
         <nav>
-          <a href="home.php"> Home </a>
-          <a href="about.php"> About </a>
-          <a href="projects.php"> Projects </a>
-          <a href="contact.php"> Contacts </a>
+          <a href="/simple_site"> Home </a>
+          <a href="/simple_site/about.php"> About </a>
+          <a href="/simple_site/projects.php"> Projects </a>
+          <a href="/simple_site/contact.php"> Contacts </a>
         </nav>
       </header>
 
       <section>
 
-        <h1> Home </h1>
+        <h1> About </h1>
       </section>
     </div>
   </body>
