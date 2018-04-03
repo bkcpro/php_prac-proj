@@ -8,7 +8,10 @@
     <h1> Bob's auto parts </h1>
     <h2> Order results </h2>
     <?php
-      echo "<h3> Order processed </h3>";
+
+      echo "<p> Order processed at ";
+      echo date("H:i, jS F Y");
+      echo "</p>";
     ?>
   </body>
 </html>
