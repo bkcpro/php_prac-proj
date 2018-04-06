@@ -9,9 +9,15 @@
     <h2> Order results </h2>
     <?php
 
-      echo "<p> Order processed at ";
-      echo date("H:i, jS F Y");
-      echo "</p>";
+      $tireqty = $_POST['tireqty'];
+      $oilqty = $_POST['oilqty'];
+      $sparkqty = $_POST['sparkqty'];
+
+
+      echo htmlspecialchars($tireqty) . ' tires<br />';
+      echo htmlspecialchars($oilqty) . ' oil<br />';
+      echo htmlspecialchars($sparkqty) . ' spark plugs<br />';
+
     ?>
   </body>
 </html>
