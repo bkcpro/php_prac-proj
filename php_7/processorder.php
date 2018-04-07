@@ -81,6 +81,37 @@
       echo "Total including tax: &emsp;&emsp;$" . number_format($totalamount) . "<br />";
       echo "Discount: &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;" . $discount. "%<br />";
       echo "Total after discount: &emsp;$" . ($totalamount - ($discount/100 * $totalamount)) . "</p>";
+
+      echo "<p>
+       ---------------------------------------------------------------------------
+      </p>";
+
+      //Also can assign option values' to the text
+
+      echo "<p> Customer was found through: ";
+
+      switch($_POST["find"]){
+        case "a":
+            echo "Regular customer </p>";
+            break;
+
+        case "b":
+            echo "TV advertisement </p>";
+            break;
+
+        case "c":
+            echo "Phone directory </p>";
+            break;
+
+        case "d":
+            echo "Word of mouth </p>";
+            break;
+
+        default:
+            echo "No means found </p>";
+            break;
+      }
+
     ?>
 
   </body>
